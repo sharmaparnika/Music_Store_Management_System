@@ -4,7 +4,7 @@ Music Library Management System have to manage various musical items comes with 
 
 This is a music store manager program in C++ with mysql database that can create order, calculate bill, add new music in database, edit the music description, and delete any item also it shows the total music in stock, and it can find the specific music. it stores all data in MySQL database.
 
-## Features:
+### Features:
 The program can create order, find music, sold items, item in stock, all items, add new Item, remove Item.
 
 1. Create Order
@@ -44,14 +44,14 @@ The program can create order, find music, sold items, item in stock, all items, 
       Exit the program.
       
       
-## Music Store Manager Program Details:
+### Music Store Manager Program Details:
 
 In the beginning of the program Global variables, Class db_response, Function main.
 
 ![image](https://user-images.githubusercontent.com/73773202/150319417-a61c6f09-551d-4b21-beef-f6cd284cf2cc.png)
 
 
-## Global variables used in this Music Store Manager Program:
+### Global variables used in this Music Store Manager Program:
 
 * qstate represent the state of the query. If 0 is successful 1 is failed.
 * conn is the mysql connection variable.
@@ -68,7 +68,7 @@ In the beginning of the program Global variables, Class db_response, Function ma
 ![image](https://user-images.githubusercontent.com/73773202/150319697-6cabc456-2d52-4571-9009-fa0e377a46a8.png)
 
 
-## Function main:
+### Function main:
 
 * Here firstly the clear screen command then the title command and the color command.
 * db_response::ConnectionFunction() is create the connection to the database.
@@ -171,7 +171,7 @@ Finally the Exit Code terminates the program or go to main function or repeat th
     *  The sold item shows the item all the items that sold and how many of them are sold with its all property.
     *  Then the Exit Code runs.
 
-## Details for MySQL Database used in this Music Store Manager Program
+### Details for MySQL Database used in this Music Store Manager Program
 Database and Table Name:
 
 * Table: musicinfo_tb, solditem_tb
